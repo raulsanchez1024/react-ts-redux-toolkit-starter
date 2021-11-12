@@ -14,10 +14,13 @@ export function Home() {
   return (
     <div className="home__container">
       <h1>Home</h1>
-      <p>counter: {counter}</p>
+      <p>
+        counter:
+        {counter}
+      </p>
       <div>
-        <button onClick={e => dispatch(setCounter(counter + 1))}>+</button>
-        <button onClick={e => dispatch(setCounter(counter - 1))}>-</button>
+        <button onClick={() => dispatch(setCounter(counter + 1))}>+</button>
+        <button onClick={() => dispatch(setCounter(counter - 1))}>-</button>
       </div>
     </div>
   );
