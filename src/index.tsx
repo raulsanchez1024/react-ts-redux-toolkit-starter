@@ -5,7 +5,7 @@ import { store } from 'store';
 
 import { Routes } from 'routes';
 
-import reportWebVitals from './reportWebVitals';
+import { reportWebVitals } from './reportWebVitals';
 
 import './index.css';
 
