@@ -9,7 +9,7 @@ import './Home.css';
 export function Home() {
   // Hooks
   const dispatch = useDispatch();
-  const counter = useAppSelector((state) => getCounter(state));
+  const counter = useAppSelector(state => getCounter(state));
 
   return (
     <div className="home__container">
