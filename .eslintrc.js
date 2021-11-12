@@ -64,6 +64,10 @@ module.exports = {
             format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
             leadingUnderscore: 'allow',
           },
+          {
+            selector: ['typeAlias'],
+            format: ['PascalCase'],
+          },
         ],
         '@typescript-eslint/no-unused-vars': ['error'],
         'import/no-default-export': 'error',
